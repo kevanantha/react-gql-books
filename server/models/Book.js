@@ -11,8 +11,6 @@ const bookSchema = new Schema(
       required: [true, 'Genre is required']
     },
     authorId: {
-      // type: Schema.Types.ObjectId,
-      // ref: 'Author'
       type: String,
       required: [true, 'authorId is required']
     }
